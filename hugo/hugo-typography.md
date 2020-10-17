@@ -1,6 +1,6 @@
 # Add unbreakable spaces to HTML content in Hugo
 
-To print the text with improved typography (can be useful for blog posts, we use this code in [Noltio blog](https://noltio.com/cs/blog/)), just use this code snippet and paste it to the `.Content` target in your HTML file.
+To print the text with improved typography (can be useful for blog posts, we use this code in [Noltio blog](https://noltio.com/cs/blog/)), just use this code snippet and paste it to the `.Content` target in your HTML file. I am explaining the code in [this article](https://noltio.com/cs/blog/hugo-jak-na-automaticke-nahrazeni-mezer-nedelitelnymi/) (in Czech).
 
 ```
 {{ $content := .Content }}

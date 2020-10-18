@@ -10,5 +10,3 @@ To print the text with improved typography (can be useful for blog posts, we use
 {{ $content = replaceRE "( |>|\\(|\\[|\\{)([A-Z]\\.)(</[a-z0-9]>)? " "$1$2$3&nbsp;" $content }}
 {{ $content | safeHTML }}
 ```
-
-_This code hasn't been tested in other cases than in the one when Forestry is used to generate the HTML content of the page._
